@@ -29,7 +29,7 @@ body {
 
 
 header {
-    width: 910px;	/* reduced by 20px to accommodate shadow */
+    width: 930px;	/* reduced by 20px to accommodate shadow */
     margin-bottom: 30px;
     margin-top: 10px;
     text-align: center;
@@ -37,7 +37,9 @@ header {
     box-shadow: 15px 15px 5px 0 #888888;
     border-radius: 25px;  	
 }
-
+header img{
+	 border-radius: 25px;
+}
 nav {
     width: 200px;
     margin: 0 5px 0 5px; 
@@ -136,7 +138,7 @@ footer a:link {
 }
 
 footer a:visited {
-    color: navy;
+    color: green;
     background-color: grey;
     text-decoration: none;
 }
