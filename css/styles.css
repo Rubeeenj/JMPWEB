@@ -178,3 +178,7 @@ width: 450px;
             border-radius: 4px;
             cursor: pointer;
         }
+		
+		table, th, td {
+  border: 1px solid black;
+}
